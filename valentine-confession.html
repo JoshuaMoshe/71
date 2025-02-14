@@ -1,45 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="valentine-confession.css">
-        <title>Valentine Confession</title>
-    </head>
-    <body>
-        <p class="instruction">Click the heart!</p>
-        <div class="container">
-            <label>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="valentine-confession.css">
+    <title>Valentine Confession</title>
+</head>
+<body>
+    <p class="instruction">Click the heart!</p>
+    <div class="container">
+        <label>
             <div class="heart">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Love_Heart_SVG.svg"></img>
             </div>
             <input id="messageState" type="checkbox" style="display:none"/>
-            </label>
-            <div class="message">
-                <h1 style="font-family: Cinzel, serif; font-size: 40px; letter-spacing: 1.2px;">Dear Crush,</h1>
-                <p> 
-                    <span>
-                        &emsp; I've been keeping this in for a while, but I think Valentine's Day is the perfect time to say it—you’re the reason my days feel brighter. Every little moment with you means more than I can put into words. Your smile, your laughter, the way you make everything feel lighter—it all makes my heart race in the best way possible.
-                    </span>
-                    <br> <br>
-                    <span>
-                        &emsp;  So, here it is… I like you, a lot. Maybe even love. Would you be my Valentine? No matter your answer, I just wanted you to know how special you are to me. You’ve filled my heart with warmth in ways I never expected, and for that, I’m grateful. But if you say yes, I promise to make every day feel like Valentine’s Day for you—to cherish you, to make you smile, and to remind you just how much you mean to me.
-                    </span>      
-                </p>
-                <br>
-                <div class="sincere">
-                    <p style="font-weight: bold;"> With Love,</p>
-                    <p>Your Admire</p>
-                 </div>
+        </label>
+        <div class="message">
+            <h1 style="font-family: Cinzel, serif; font-size: 40px; letter-spacing: 1.2px;">Dear Geraldine,</h1>
+            <p> 
+                <span>
+                    &emsp; I’ve been meaning to tell you this for a while, but I wasn’t sure how to say it. The more I get to know you, the more I realize how amazing you are, and honestly… I really like you. 💙
+                </span>
+                <br> <br>
+                <span>
+                    &emsp; I may not be everything you’ve ever dreamed of, and I don’t have much to offer in material things—but what I do have, I’d gladly give to you. My time, my effort, and my heart. I’ll do my best to make you happy, to be there for you, and to never take you for granted. You mean more to me than you know, and I’d love the chance to show you that
+                </span>
+                <br> <br>
+                <span>
+                    &emsp; I’d love to take you out on a date—just the two of us. Nothing fancy, just a chance to spend time together and make some good memories. What do you think? 😊 No pressure at all, but I just wanted to be honest about how I feel.
+                </span>    
+            </p>
+
+            <!-- Yes/No Buttons -->
+            <div class="buttons">
+                <button id="yesBtn">Yes 💖</button>
+                <button id="noBtn">No 😢</button>
+            </div>
+
+            <!-- Hidden response message -->
+            <p id="responseMessage" style="display:none; font-weight:bold;"></p>
+
+            <br>
+            <div class="sincere">
+                <p style="font-weight: bold;"> With Love,</p>
+                <p>Your Admirer Josh</p>
             </div>
         </div>
-        
-        <script src="jquery.js"></script>
-        <script src="jquery2.1.js"></script>
-        <script defer src="valentine-confession.js"></script>
-    </body>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="jquery2.1.js"></script>
+    <script defer src="valentine-confession.js"></script>
+</body>
 </html>
+
 

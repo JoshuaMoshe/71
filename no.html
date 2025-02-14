@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oh No! 😢</title>
+    <link rel="stylesheet" href="valentine-confession.css">
+    <style>
+        body {
+            background-color: #fce4ec;
+            text-align: center;
+            font-family: 'Quicksand', sans-serif;
+            padding: 50px;
+        }
+        h1 {
+            color: #888;
+            font-size: 35px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        p {
+            font-size: 20px;
+            max-width: 600px;
+            margin: auto;
+            line-height: 1.6;
+            animation: fadeIn 2s ease-in-out 0.5s;
+        }
+        .sad-gif {
+            width: 250px;
+            margin-top: 20px;
+            animation: shake 1s infinite alternate;
+        }
+        @keyframes shake {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(5deg); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .back-button {
+            margin-top: 30px;
+            padding: 12px 24px;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #888;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+        }
+        .back-button:hover {
+            background-color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ouch...... 😅</h1>
+    <p>
+        It’s okay, I respect your choice! 😊  
+        I just wanted to be honest about how I feel.  
+        You’re still an amazing person, and I’m glad I got to tell you this.  
+    </p>
+    <p>
+        No hard feelings—maybe we can still hang out as friends? 🤗  
+    </p>
+    <br>
+    <button class="back-button" onclick="window.location.href='valentine-confession.html'">Back to Confession</button>
+</body>
+</html>
+
